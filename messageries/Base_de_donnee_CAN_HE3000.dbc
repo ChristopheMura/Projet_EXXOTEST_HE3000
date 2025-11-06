@@ -1,0 +1,72 @@
+VERSION "HIPBNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN/4/%%/4/'%**4NNN///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: VECTOR__XXX EXXOTEST EXXOTEST__XXX
+
+
+BO_ 551 Info_1: 8 EXXOTEST
+ SG_ Vehicle_Speed : 0|16@1+ (0.1,0) [-3276|3276] "km/h"  EXXOTEST__XXX
+ SG_ Total_Odometer : 16|32@1+ (0.1,0) [0|4294970000] "km"  EXXOTEST__XXX
+ SG_ Controller_status : 48|2@1+ (1,0) [0|2] ""  EXXOTEST__XXX
+ SG_ BDI_Percentage : 56|8@1+ (1,0) [0|100] "%"  EXXOTEST__XXX
+
+BO_ 423 Info_3: 1 EXXOTEST
+ SG_ Reset_partial_odometer : 0|1@1+ (1,0) [0|2] ""  EXXOTEST__XXX
+ SG_ CAN_Low_Batt_flag : 6|1@0+ (1,0) [0|1] ""  EXXOTEST__XXX
+
+BO_ 552 Info_5: 2 EXXOTEST
+ SG_ Vehicle_Acceleration : 0|16@1- (0.001,0) [0|1] "g"  EXXOTEST__XXX
+
+BO_ 807 Info_2: 8 EXXOTEST
+ SG_ Current_RMS : 32|16@1+ (0.1,0) [0|10000] "A"  EXXOTEST__XXX
+ SG_ Frequency : 48|16@1- (1,0) [-18000|18000] "Hz"  EXXOTEST__XXX
+ SG_ Trip_Odometer : 0|16@1+ (0.1,0) [0|2000] "Km"  EXXOTEST__XXX
+ SG_ Keyswitch_Voltage : 16|16@1+ (0.01,0) [0|10500] "V"  EXXOTEST__XXX
+
+BO_ 1319 Info_4: 8 EXXOTEST
+ SG_ Battery_power : 0|16@1- (0.1,0) [-32767|32767] "kW"  EXXOTEST__XXX
+ SG_ Motor_Rpm : 16|16@1- (1,0) [-12000|12000] "rpm"  EXXOTEST__XXX
+ SG_ Motor_Temp : 32|16@1- (0.1,0) [-1000|3000] "°C"  EXXOTEST__XXX
+ SG_ Batt_Current : 48|16@1- (0.1,0) [-32767|32767] "A"  EXXOTEST__XXX
+
+BO_ 128 Trame_Contact: 8 EXXOTEST__XXX
+
+
+
+CM_ SG_ 551 BDI_Percentage "Battery_state_of_charge";
+VAL_ 551 Controller_status 1 "Forward_selected" 2 "Reverse_selected" 0 "Neutre" ;
+VAL_ 423 Reset_partial_odometer 1 "reset" ;
+VAL_ 423 CAN_Low_Batt_flag 1 "stop_traction" ;
+
