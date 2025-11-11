@@ -1,0 +1,83 @@
+VERSION "HIPBNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN/4/%%/4/'%**4NNN///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: EXXOTEST__XXX
+
+
+BO_ 269 Entree_Analogique_14: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_14 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 268 Entree_Analogique_13: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_13 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 267 Entree_Analogique_12: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_12 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 266 Entree_Analogique_11: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_11 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 265 Entree_Analogique_10: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_10 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 264 Entree_Analogique_9: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_9 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 263 Entree_Analogique_8: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_8 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 262 Entree_Analogique_7: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_7 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 261 Entree_Analogique_6: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_6 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 260 Entree_Analogique_5: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_5 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 259 Entree_Analogique_4: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_4 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 258 Entree_Analogique_3: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_3 : 7|16@0+ (0.001,0) [0|32] "Volts" EXXOTEST__XXX
+
+BO_ 257 Entree_Analogique_2: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_2 : 7|16@0+ (0.001,0) [0|32] "Volts"  EXXOTEST__XXX
+
+BO_ 256 Entree_Analogique_1: 2 EXXOTEST__XXX
+ SG_ Tension_Entree_1 : 7|16@0+ (0.001,0) [0|32] "Volts"  EXXOTEST__XXX
+
+
+
+
